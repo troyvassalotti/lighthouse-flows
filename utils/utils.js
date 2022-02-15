@@ -1,7 +1,7 @@
 import fs from 'fs'
 import open from 'open'
 
-const reportDest = './reports/'
+const reportDest = '../reports/'
 
 export function writeLighthouseReport(name, report, openFile = true) {
     const output = reportDest + name

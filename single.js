@@ -5,7 +5,7 @@
 
 import puppeteer from "puppeteer";
 import { startFlow } from "lighthouse/lighthouse-core/fraggle-rock/api.js";
-import { writeLighthouseReport } from "./utils.js";
+import { writeLighthouseReport } from "./utils/utils.js";
 
 /**
  * Grab the node arguments to use in the function.
@@ -43,7 +43,7 @@ if (args[0] === "help") {
     console.log(
         `
       Your first argument should be the name of the output report file
-      Your second argument should be the name of the URL you want to test.
+      Your second argument should be the URL you want to test.
       Basic usage: node single example https://www.example.com
     `
     );

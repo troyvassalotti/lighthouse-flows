@@ -13,7 +13,7 @@
   "dependencies": {
     "lighthouse": "^8.6.0",
     "open": "^8.4.0",
-    "puppeteer": "^11.0.0"
+    "puppeteer": "^13.1.1"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
