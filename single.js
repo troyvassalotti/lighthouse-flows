@@ -28,12 +28,12 @@ async function captureSingleReport(file, link) {
     const flow = await startFlow(page, { name: "Cold and Warm Navigations" });
 
     await flow.navigate(link, { stepName: "Cold Navigation" });
-    await flow.navigate(link, {
-        stepName: "Warm Navigation",
-        configContext: {
-            settingsOverrides: { disableStorageReset: true },
-        },
-    });
+    // await flow.navigate(link, {
+    //     stepName: "Warm Navigation",
+    //     configContext: {
+    //         settingsOverrides: { disableStorageReset: true },
+    //     },
+    // });
     await browser.close();
 
     writeLighthouseReport(file, flow.generateReport());
