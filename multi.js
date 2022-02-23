@@ -39,10 +39,10 @@ async function captureMultipleReports(file, links) {
 if (args[0] === "help") {
     console.log(
         `
-        This script is best used with pages on the same domain
-        Your first argument should be the name of the output report file
-        The rest of your arguments should be URLs to visit
-        Basic usage: node single example https://www.example.com https://www.example.com/about https://www.example.com/page-3
+        # This script is best used with pages on the same domain
+        - Your first argument should be the name of the output report file
+        - The rest of your arguments should be URLs to visit
+        - Basic usage: node multi example https://www.example.com https://www.example.com/about https://www.example.com/page-3
      `
     );
 } else {
