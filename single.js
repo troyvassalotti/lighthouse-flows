@@ -48,5 +48,5 @@ if (args[0] === "--help") {
     `
     );
 } else {
-    captureSingleReport(nameOfReport, urlToTest);
+    captureSingleReport(nameOfReport, urlToTest).then(() => console.log("Completed flow. Find it in the /reports/ directory."));
 }

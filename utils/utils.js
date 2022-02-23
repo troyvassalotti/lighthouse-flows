@@ -9,5 +9,5 @@ export function writeLighthouseReport(name, report, openFile = true) {
 
     if (openFile) {
         open(output, {wait: false})
-    }   
+    }
 }

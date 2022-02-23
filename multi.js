@@ -46,5 +46,5 @@ if (args[0] === "--help") {
      `
     );
 } else {
-    captureMultipleReports(nameOfReport, urlsToTest).then((r) => console.log("Completed flow:", r));
+    captureMultipleReports(nameOfReport, urlsToTest).then(() => console.log("Completed flow. Find it in the /reports/ directory."));
 }
