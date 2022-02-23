@@ -1,21 +1,20 @@
 {
-  "type": "module",
-  "name": "lighthouse-flow",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "lighthouse": "^8.6.0",
-    "open": "^8.4.0",
-    "puppeteer": "^13.1.1"
-  },
-  "devDependencies": {
-    "prettier": "^2.5.1"
-  }
+    "type": "module",
+    "name": "nmg-lighthouse-flows",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "node single test-report https://www.example.com",
+        "test:multiple": "node multi test-report.multiple https://developer.mozilla.org/en-US/ https://developer.mozilla.org/en-US/docs/Web https://developer.mozilla.org/en-US/docs/Learn",
+        "format": "prettier --write ."
+    },
+    "description": "Test promos and more with Lighthouse CLI.",
+    "dependencies": {
+        "lighthouse": "^8.6.0",
+        "open": "^8.4.0",
+        "puppeteer": "^13.1.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    }
 }
