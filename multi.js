@@ -36,7 +36,7 @@ async function captureMultipleReports(file, links) {
     writeLighthouseReport(file, flow.generateReport());
 }
 
-if (args[0] === "help") {
+if (args[0] === "--help") {
     console.log(
         `
         # This script is best used with pages on the same domain

@@ -39,7 +39,7 @@ async function captureSingleReport(file, link) {
     writeLighthouseReport(file, flow.generateReport());
 }
 
-if (args[0] === "help") {
+if (args[0] === "--help") {
     console.log(
         `
       - Your first argument should be the name of the output report file
