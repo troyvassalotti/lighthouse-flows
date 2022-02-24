@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "name": "nmg-lighthouse-flows",
+    "name": "lighthouse-flows",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
