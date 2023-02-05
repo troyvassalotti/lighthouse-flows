@@ -10,7 +10,7 @@
     },
     "description": "Test promos and more with Lighthouse CLI.",
     "dependencies": {
-        "lighthouse": "^8.6.0",
+        "lighthouse": "^9.6.8",
         "open": "^8.4.0",
         "puppeteer": "^13.1.1"
     },
